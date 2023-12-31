@@ -1,14 +1,31 @@
+/* 1014 */
 @media (max-width:1014px) {
     .header .header-part {
         display: flex;
         gap: 20px;  
-
     }
 }
 
+/* 992 */
 @media (max-width:992px) {
-    .header .sci {
-        display: flex;
+    .header .container .sci .social {
+        padding: 5px;
+    }
+}
 
+/* 770 */
+@media (max-width:770px) {
+    .header .container .header-part{
+        display: none;
+    }
+    
+    .header .container .mobile-menu {
+        display: flex;
+        background-color: #000;
+        /* background: #0026fc; */
+    }
+
+    .header .container .bars{
+        display: block;
     }
 }
