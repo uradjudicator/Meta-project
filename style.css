@@ -1,0 +1,824 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* header */
+.header {
+    background-color: blueviolet;
+}
+
+.header .container {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .header-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .container .menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header .container .menu a {
+    color: white;
+    line-height: 16px;
+}
+
+.header .container .sci {
+    display: flex;
+    gap: 12px;
+}
+
+.header .container .sci .social {
+    padding: 8px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .container .sci .social:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/* RECORD label */
+.record .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.record .container .meta-block {
+    margin: 113px 0 103px;
+}
+
+.record .container .meta-block h1 {
+    font-family: 'Audiowide';
+    font-size: 51px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 61px;
+}
+
+.record .container .meta-block p {
+    font-family: 'Inter';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 45px 0 110px 0;
+    max-width: 340px;
+}
+
+.record .container .meta-block .btn {
+    font-family: 'DM Mono';
+    line-height: 16px;
+    text-align: center;
+    width: 205px;
+    height: 60px;
+    background-color: #8DFD1B;
+    transition: 0.3s;
+}
+
+.record .container .meta-block .btn:hover {
+    background-color: #000;
+    color: #8DFD1B;
+    border: 1px solid #8DFD1B;
+
+}
+
+.record .container .image {
+    max-width: 50%;
+    height: 100%;
+}
+
+.record .container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Wave NFT */
+.Wave-nft {
+    padding: 120px 0 113px;
+}
+
+.Wave-nft .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+.Wave-nft .container .left-block .top-title {
+    font-family: 'Audiowide';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #fff;
+}
+
+.Wave-nft .container .left-block .bottom-title {
+    font-family: 'Audiowide';
+    width: 351px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #A8A8A8;
+    margin-bottom: 41px;
+}
+
+/* .Wave-nft .container .left-block .image{
+} */
+
+.Wave-nft .container .left-block .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Wave-nft .container .right-block .desc {
+    font-family: 'DM Mono';
+    font-size: 21px;
+    line-height: 32px;
+    text-align: left;
+    color: #8DFD1B;
+    width: 546px;
+    border-left: 1px solid #8DFD1B;
+    padding-left: 22px;
+}
+
+.Wave-nft .container .right-block .pharagraphs {
+    margin: 27px 0 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.Wave-nft .container .right-block .pharagraphs p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    width: 557px;
+}
+
+.Wave-nft .container .right-block .btn {
+    border-color: #8DFD1B;
+    font-family: 'DM Mono';
+    line-height: 16px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 33px 16px;
+    background: #000;
+    border: 1px solid #8DFD1B;
+    transition: 0.3s;
+}
+
+.Wave-nft .container .right-block .btn:hover {
+    background: #8DFD1B;
+    color: #000;
+}
+
+/* artists */
+.artists-title {
+    margin: 113px 0 127px;
+}
+
+.artists-title .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artists-title h2 {
+    font-size: 50px;
+    font-family: 'Audiowide';
+    text-align: center;
+    color: #fff;
+}
+
+
+/* artists */
+.artists .container .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.artists .container .wrapper .card {
+    max-width: 245px;
+    opacity: 50%;
+}
+
+.artists .container .wrapper .card:hover {
+    color: #fff;
+    opacity: 100%;
+}
+
+.artists .container .wrapper .card:hover .site-title {
+    color: var(---green);
+}
+
+.artists .container .wrapper .card .site-title {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'mono', sans-serif;
+    color: var(---black);
+    padding: 20px 60px;
+}
+
+
+/* story */
+.story .container {
+    padding-bottom: 120px;
+    color: #fff;
+}
+
+.story .container .main {
+    text-align: center;
+    padding: 240px 0 60px;
+}
+
+.story .container .main .story-title {
+    font-size: 38px;
+    color: #fff;
+    font-family: 'Audiowide';
+}
+
+.story .container .main .story-title span {
+    color: #A8A8A8;
+}
+
+.story .container .wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.story .container .wrapper .left .subtitle {
+    font-family: 'DM Mono';
+    text-align: left;
+    font-weight: 400;
+    padding: 30px 110px 30px 30px;
+    width: 282px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.story .container .wrapper .left .subtitle:hover {
+    color: #8DFD1B;
+    background: #222;
+}
+
+.story .container .wrapper .left .subtitle:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+
+.story .container .wrapper .left .subtitle:nth-child(3) {
+    border-bottom-left-radius: 20px;
+}
+
+.story .container .wrapper .right {
+    display: flex;
+    background: #222;
+    color: #fff;
+    padding: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.story .container .wrapper .right img {
+    width: 200px;
+}
+
+.story .container .wrapper .right .right-desc {
+    display: block;
+    padding-left: 40px;
+}
+
+.story .container .wrapper .right .right-desc .top-text {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'DM Mono';
+    border-left: 3px solid #8DFD1B;
+    color: #8DFD1B;
+    padding-left: 22px;
+    text-align: start;
+}
+
+.story .container .wrapper .right .right-desc .text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    color: #fff;
+    padding: 20px 0;
+    line-height: 25.6px;
+}
+
+
+/* bg */
+.bg .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* road map */
+.roadmap .container {
+    padding: 120px 0 240px;
+    position: relative;
+    color: #fff;
+}
+
+.roadmap .container .site-title {
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Audiowide', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 110px;
+    text-align: center;
+    color: #fff;
+}
+
+.roadmap .container .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 140px;
+    position: relative;
+}
+
+.roadmap .container .wrapper::after {
+    content: '';
+    background-image: url(./PIC/bg-background.png);
+    position: absolute;
+    top: -385px;
+    left: -115px;
+    z-index: -1;
+    width: 672px;
+    height: 672px;
+}
+
+.roadmap .container .wrapper::before {
+    content: '';
+    background-image: url(./PIC/bg-background.png);
+    position: absolute;
+    /* top: 162px;
+    right: -130px; */
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 672px;
+    height: 672px;
+}
+
+.roadmap .container .wrapper .card {
+    width: 540px;
+    border: 2px solid #8DFD1B;
+    background: #222;
+    position: relative;
+}
+
+    .roadmap .container .wrapper .card:nth-child(3):before {
+        content: '';
+        background-image: url(./PIC/bg-background.png);
+        position: absolute;
+        right: 291px;
+        top: -73px;
+        z-index: -1;
+        width: 672px;
+        height: 672px;
+    }
+
+.roadmap .container .wrapper .card:hover .upper .number {
+    background: #8DFD1B;
+    color: #000;
+}
+
+.roadmap .container .wrapper .upper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 2px solid #8DFD1B;
+}
+
+.roadmap .container .wrapper .upper .number {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'DM Mono', sans-serif;
+    padding: 8px 16px;
+    background: #222;
+    color: #8DFD1B;
+    border: 2px solid #8DFD1B;
+    margin: 12px;
+}
+
+.roadmap .container .wrapper .upper .right h2 {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'DM Mono', sans-serif;
+    color: #8DFD1B;
+}
+
+.roadmap .container .wrapper .upper .right .subtitle{
+    color: #FFF;
+font-family: 'DM Mono';
+font-size: 16px;
+font-weight: 400;
+line-height: 27.726px; 
+text-transform: uppercase;
+}
+
+.roadmap .container .wrapper .card .downer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 12px;
+}
+
+.roadmap .container .wrapper .card .downer .left .subtitles{
+    padding-left: 22px;
+}
+
+
+.roadmap .container .wrapper .card .downer .left .subtitles .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 0;
+    color: #fff
+}
+
+.roadmap .container .wrapper .card p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    max-width: 298px;
+    line-height: 25px;
+    margin-top: 12px;
+}
+
+
+/* logo */
+.logo .title {
+    color: #8DFD1B;
+    font-family: 'DM Mono';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo .logo-hold-1 {
+    gap: 86px;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Audiowide', sans-serif;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+
+.logo .logo-hold-2 {
+    text-align: left;
+    font-size: 24px;
+    display: flex;
+    gap: 86px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Audiowide', sans-serif;
+    margin-bottom: 247px;
+}
+
+/* fqa */
+.fqa .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.fqa .title-part {
+    margin-bottom: 51px;
+}
+
+.fqa .title {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Audiowide';
+}
+
+.fqa .title:nth-child(2) {
+    color: #A8A8A8;
+}
+
+.fqa .right {
+    max-width: 580px;
+    padding: 23px 31px 29px 21px;
+    background-color: #222;
+}
+
+.fqa .content .right .quest-holder {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.fqa .content .right .quest-holder .question {
+    color: #FFF;
+    font-family: 'DM Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fqa .content .right .quest-holder i {
+    color: #fff;
+}
+
+.fqa .content .right .answer {
+    color: #C4C4C4;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 19.2px;
+    margin-bottom: 24px;
+}
+
+/* team */
+.team {
+    margin: 108px 0 130px;
+}
+
+.team .team-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team .title {
+    font-size: 79px;
+    color: #fff;
+    line-height: 88px;
+    text-transform: uppercase;
+    font-family: 'Audiowide';
+}
+
+/* founders */
+.founders .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.founders .card {
+    width: 320px;
+    text-align: center;
+}
+
+.founders .card .image {
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.founders .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founders .card .name {
+    margin: 19px 0;
+    color: #FFF;
+    font-family: 'DM Mono';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27.726px;
+    text-transform: uppercase;
+}
+
+.founders .card .occupation {
+    color: #8DFD1B;
+    font-family: 'DM Mono';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.founders .card .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 22px 0;
+}
+
+.founders .card .social {
+    background: #fff;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.founders .card .social:hover {
+    background: #000;
+    color: #fff;
+
+}
+
+.founders .card .card-text {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 238px;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+/* discord */
+.discord {
+    margin: 200px 0 100px;
+    background-color: #000;
+}
+
+.discord .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord .wrapper .title {
+    font-family: 'Audiowide';
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 60.5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.discord .wrapper .title:nth-child(2) {
+    color: #8DFD1B;
+}
+
+.discord .wrapper .text {
+    font-family: 'Inter';
+    max-width: 345px;
+    color: #fff;
+    margin: 34px 0 35px;
+    line-height: 25.6px;
+}
+
+.discord .wrapper .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #8DFD1B;
+    padding: 14px 32px 6px;
+
+    gap: 9px;
+    font-family: 'DM Mono';
+    transition: 0.2s;
+}
+
+
+.discord .wrapper .btn:hover {
+    border: 1px solid #8DFD1B;
+    background: #000;
+}
+
+.discord .wrapper .btn:hover .button-text,
+.discord .wrapper .btn:hover i {
+    color: #8DFD1B;
+}
+
+.discord .wrapper .btn .button-text {
+    line-height: 16px;
+}
+
+
+/* footer */
+.footer {
+    background: #42006A;
+    padding: 100px 0 120px;
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer .wrapper .logo-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .wrapper .logo-part .year {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 70px;
+    font-family: 'DM Mono';
+    line-height: 20.48px;
+}
+
+.footer .wrapper .part-1,
+.footer .wrapper .part-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .wrapper .text {
+    color: #FFF;
+    font-family: 'DM Mono';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.footer .wrapper .part-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.footer .wrapper .part-3 .text {
+    color: #FFF;
+    font-family: 'DM Mono';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.36px;
+}
+
+.footer .wrapper .sci {
+    display: flex;
+    gap: 12px;
+}
+
+.footer .wrapper .sci .social i {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+}

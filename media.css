@@ -1,0 +1,14 @@
+@media (max-width:1014px) {
+    .header .header-part {
+        display: flex;
+        gap: 20px;  
+
+    }
+}
+
+@media (max-width:992px) {
+    .header .sci {
+        display: flex;
+
+    }
+}
